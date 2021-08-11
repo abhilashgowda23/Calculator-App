@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" language="javascript" type="text/javascript"></script>
+
+    
+  </head>
+  <body>
+<div class="box" style = "text-align:center">
+<div class="display"><input type="text" readonly size="18" id="d"></div>
+<div class="keys">
+	
+		<div style="display: flex; margin-top: 16px; margin-left: 10px;">
+			<div type="button"  class="button black" 
+				data-value="1" onclick="v(this)">1</div>
+		
+			<div type="button" 
+				class="button black" data-value="2" onclick="v(this)">2</div>
+		
+			<div type="button" class="button black" data-value="3" onclick="v(this)" 
+				>3</div>
+		
+			<div type="button" id = "cal_addition" 
+				class="button black" data-op="+" onclick="op(this)">+</div>
+			
+			<div type="button" id = "cal_sub" 
+				class="button black" data-op="-" onclick="op(this)">-</div>
+		</div>
+	
+	
+	
+	
+		<div style="display: flex; margin-top: 16px; margin-left: 10px;">
+			<div type="button" class="button black" 
+				data-value="4" onclick="v(this)">4</div>
+		
+			<div type="button" 
+				class="button black" data-value="5" onclick="v(this)">5</div>
+		
+			<div type="button" class="button black" data-value="6" onclick="v(this)">6</div>
+		
+		
+			<div type="button" id = "cal_mul" 
+				class="button black" data-op="*" onclick="op(this)">*</div>
+		
+			<div type="button" id = "cal_divide" 
+				class="button black" data-op="/" onclick="op(this)">/</div>
+		</div>
+	
+	
+    
+	
+		<div style="display: flex; margin-top: 16px; margin-left: 10px;">
+			<div type="button" class="button black" 
+				data-value="7" onclick="v(this)">7</div>
+		
+			<div type="button" 
+				class="button black" data-value="8" onclick="v(this)">8</div>
+		
+			<div type="button" class="button black" data-value="9" onclick="v(this)">9</div>
+		
+		
+			<div type="button" id = "cal_equal" 
+				class="button pink" onclick='e()' style="margin-left: 28px;
+				padding-right: 50px;">Result</div>
+		</div>
+	
+    
+	
+		<div style="display: flex; margin-top: 16px; margin-left: 10px;">
+			<div type="button" 
+				class="button black" data-value="." onclick="v(this)">.</div>
+		
+			<div type="button" class="button black" 
+				data-value="0" onclick="v(this)" style="margin-right: 152px;">0</div>
+				
+			<div type="button" id = "clear" 
+				class="button pink" onclick='clearScn()' style="margin-left: -143px;
+				padding-right: 13px;">Clear</div>
+		</div>
+	
+    
+</div>
+</div>
+</body>
+</html>
